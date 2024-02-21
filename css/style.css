@@ -21,13 +21,13 @@
 
   /* You can change the colors of the title and description section by typing the color codes. */
   --title_color: #fff;
-  --description_color: #f1c40f;
+  --description_color: #8164ff;
 
   /* You can change the colors of social media icons by changing the color code. */
   --svg_color: #f84f90a8;
 
   /* You can change the background, text color and active color of the menu by changing the color codes. */
-  --menu_background_color: #0e0e0e;
+  --menu_background_color: #5c070754;
   --menu_text_color: #fff;
   --menu_active_text_color: #f1c40f;
 
