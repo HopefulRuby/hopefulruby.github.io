@@ -48,8 +48,9 @@ body {
   font: var(--font_size) var(--font_family);
   font-weight: 400;
   line-height: 1.5;
-  background: var(--background_color) blur(2px) var(--background_image) no-repeat center; 
+  background: var(--background_color) var(--background_image) no-repeat center; 
   min-height: 100vh;
+  filter: blur(4px);
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
