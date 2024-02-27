@@ -184,13 +184,13 @@ main {
   justify-content: center;
   color: var(--button_text_color);
   background-color: var(--button_background_color);
-  width: 41em;
+  width: 31em;
   margin-top: 1em;
   padding: 0.8em;
-  opacity: 0.8;
+  opacity: 0.9;
   border-radius: 0.3em;
   min-height: 3.7em;
-  text-align: center;
+  text-align: left;
 }
 
 .main_button_item {
@@ -221,7 +221,7 @@ main {
 .main_button_item:hover {
   color: var(--button_text_hover_color);
   transform: scale(1.02);
-  opacity: 0.8;
+  opacity: 0.9;
   transition: 0.10s ease;
 }
 
@@ -231,7 +231,7 @@ main {
   width: calc(41em / 2 - 5px);
   border-radius: 1em;
   min-height: 3.7em;
-  opacity: 0.5;
+  opacity: 0.6;
   text-align: center;
   cursor: pointer;
 }
