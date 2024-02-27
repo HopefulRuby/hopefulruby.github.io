@@ -12,7 +12,7 @@
   --background_image: url("../img/background.jpg");
 
   /* You can change the frame thickness and color of the picture by typing the number of pixels and the color code. */
-  --image_border_color: #000;
+  --image_border_color: #f17e7eb7;
   --image_border_px: 3px;
 
   /* You can change the width and size of the picture by typing the number of pixels. */
@@ -20,7 +20,8 @@
   --image_height: 140px;
 
   /* You can change the colors of the title and description section by typing the color codes. */
-  --title_color: #fff;
+  --title_color: #6488ff;
+  --header_outline_color: #FFFFFF;
   --description_color: #8164ff;
 
   /* You can change the colors of social media icons by changing the color code. */
@@ -94,6 +95,8 @@ body {
 }
 
 .header_text h1 {
+  outline-color: var(--header_outline_color);
+  outline-width: 1px;
   color: var(--title_color);
   font-size: 2em;
 }
@@ -180,16 +183,17 @@ main {
 
 .main_text_item {
   display: flex;
-  align-items: center;
+  align-items: left;
   justify-content: center;
   color: var(--button_text_color);
   background-color: var(--button_background_color);
-  width: 41em;
+  width: 31em;
   margin-top: 1em;
   padding: 0.8em;
+  opacity: 0.6;
   border-radius: 0.3em;
   min-height: 3.7em;
-  text-align: center;
+  text-align: left;
 }
 
 .main_button_item {
@@ -220,6 +224,7 @@ main {
 .main_button_item:hover {
   color: var(--button_text_hover_color);
   transform: scale(1.02);
+  opacity: 0.9;
   transition: 0.10s ease;
 }
 
@@ -229,6 +234,7 @@ main {
   width: calc(41em / 2 - 5px);
   border-radius: 1em;
   min-height: 3.7em;
+  opacity: 0.6;
   text-align: center;
   cursor: pointer;
 }
