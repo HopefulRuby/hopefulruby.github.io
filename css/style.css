@@ -8,11 +8,11 @@
   --font_size: 16px;
 
   /* You can change the background color by typing the color code. (If you do not enter a background-image image, the background-color will be active.) */
-  --background_color: #000;
+  --background_color: #00000000;
   --background_image: url("../img/background.jpg");
 
   /* You can change the frame thickness and color of the picture by typing the number of pixels and the color code. */
-  --image_border_color: #000;
+  --image_border_color: #f17e7eb7;
   --image_border_px: 3px;
 
   /* You can change the width and size of the picture by typing the number of pixels. */
@@ -187,6 +187,7 @@ main {
   width: 41em;
   margin-top: 1em;
   padding: 0.8em;
+  opacity: 0.25;
   border-radius: 0.3em;
   min-height: 3.7em;
   text-align: center;
@@ -229,6 +230,7 @@ main {
   width: calc(41em / 2 - 5px);
   border-radius: 1em;
   min-height: 3.7em;
+  opacity: 0.5;
   text-align: center;
   cursor: pointer;
 }
