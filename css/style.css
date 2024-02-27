@@ -187,7 +187,7 @@ main {
   width: 41em;
   margin-top: 1em;
   padding: 0.8em;
-  opacity: 0.25;
+  opacity: 0.8;
   border-radius: 0.3em;
   min-height: 3.7em;
   text-align: center;
@@ -221,6 +221,7 @@ main {
 .main_button_item:hover {
   color: var(--button_text_hover_color);
   transform: scale(1.02);
+  opacity: 0.8;
   transition: 0.10s ease;
 }
 
