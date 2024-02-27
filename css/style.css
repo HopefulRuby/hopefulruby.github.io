@@ -94,6 +94,7 @@ body {
 }
 
 .header_text h1 {
+  outline-color: white;
   color: var(--title_color);
   font-size: 2em;
 }
