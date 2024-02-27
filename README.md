@@ -4,6 +4,6 @@
 
 
 
-> To-Do
+**To-Do**
 > - Add Blur to background.
 > - Fix the Favicon.
