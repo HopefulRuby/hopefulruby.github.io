@@ -1,4 +1,4 @@
-## Code for https://hopefulruby.github.io/website/
+## Code for https://hopefulruby.github.io/
 
 - Forked from: https://github.com/ardacarofficial/links-website
 
